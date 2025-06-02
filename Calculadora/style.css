@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(35, 144, 207);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+#resistencia{
+    margin-left: 10px;
+}
+button{
+    margin-left: 100px ;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+#resistencia{
+    width: 250px;
+}
+
+#tensao{
+    width: 250px;
+}
+
+#corrente{
+    width: 250px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Calculo 1ª Lei de Ohm</h1>
+            <hr>
+            <h2>Escolha o que deseja calcular</h2>
+            <br>
+        </header>
+        <div>
+            <h3>Se deseja decobrir a corrente:</h3>
+            <br>
+            <label for="resistencia">Valor da resistência em ohms (Ω): </label>
+            <input onclick="apagar()" type="number" id="resistencia" placeholder="Digite o valor da resistência (Ω)">
+            <br><br>
+            <label for="tensao">Valor da tensão em volts (V): </label>
+            <input onclick="apagar()" type="number" id="tensao" placeholder="Digite o valor da tensão (V) ">
+            <br><br>
+            <label for="corrente">Valor da corrente em amperes (A) </label>
+            <input onclick="apagar()" type="number" id = "corrente" placeholder="Digite o calor da corrente (A)">
+            <br>
+            <h3 id="resultado">Resultado: </h3>
+            <br>
+            <button id="bt1" onmouseout="voltaCor()" onmouseenter="mudaCor()" onclick="resultado()">Calcular</button>
+        </div>
+    </body>
+</html>
