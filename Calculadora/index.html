@@ -18,17 +18,19 @@
             <h3>Se deseja decobrir a corrente:</h3>
             <br>
             <label for="resistencia">Valor da resistência em ohms (Ω): </label>
-            <input onclick="apagar()" type="number" id="resistencia" placeholder="Digite o valor da resistência (Ω)">
+            <input  type="number" id="resistencia" placeholder="Digite o valor da resistência (Ω)">
             <br><br>
             <label for="tensao">Valor da tensão em volts (V): </label>
-            <input onclick="apagar()" type="number" id="tensao" placeholder="Digite o valor da tensão (V) ">
+            <input  type="number" id="tensao" placeholder="Digite o valor da tensão (V) ">
             <br><br>
             <label for="corrente">Valor da corrente em amperes (A) </label>
-            <input onclick="apagar()" type="number" id = "corrente" placeholder="Digite o calor da corrente (A)">
+            <input  type="number" id = "corrente" placeholder="Digite o valor da corrente (A)">
             <br>
             <h3 id="resultado">Resultado: </h3>
             <br>
-            <button id="bt1" onmouseout="voltaCor()" onmouseenter="mudaCor()" onclick="resultado()">Calcular</button>
+            <button id="bt1" onmouseout="voltaCorBt1()" onmouseenter="mudaCorBt1()" onclick="resultado()">Calcular</button>
+            <br><br>
+            <button id="bt2" onmouseout="voltaCorBt2()" onmouseenter="mudaCorBt2()" onclick="apagar()">Redefinir</button>
         </div>
     </body>
 </html>
