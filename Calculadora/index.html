@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Calculadora Teste</title>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -28,9 +28,9 @@
             <br>
             <h3 id="resultado">Resultado: </h3>
             <br>
-            <button id="bt1" onmouseout="voltaCorBt1()" onmouseenter="mudaCorBt1()" onclick="resultado()">Calcular</button>
+            <button id="bt1" onmouseover="mudaCorBt('bt1')" onmouseout="voltaCorBt('bt1')" onclick="resultado()">Calcular</button>
             <br><br>
-            <button id="bt2" onmouseout="voltaCorBt2()" onmouseenter="mudaCorBt2()" onclick="apagar()">Redefinir</button>
+            <button id="bt2" onmouseover="mudaCorBt('bt2')" onmouseout="voltaCorBt('bt2')"  onclick="apagar()">Redefinir</button>
         </div>
     </body>
 </html>
