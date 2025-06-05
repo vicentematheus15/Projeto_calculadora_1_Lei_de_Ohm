@@ -1,12 +1,24 @@
 .cabecalho{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0px;
+  margin-block-start: 0px;
+}
+.tituloCabecalho{
+  margin-block-start: 10px;
+  margin-block-end: 5px;
 }
 .logoCabecalho{
   display: flex;
   align-items: center;
   gap: 3rem;
   margin-right: 30px;
+}
+hr{
+  background-color: black; 
+  height: 1px;
+  border: 0; 
+  margin: 0"
 }
 .titulos{
 text-align: center;
