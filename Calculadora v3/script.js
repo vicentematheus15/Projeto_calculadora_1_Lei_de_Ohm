@@ -11,8 +11,7 @@ function resultado() {
     return
   }
 
-  else if (corrente != "" && tensao != "" && resistencia != ""
-  ) {
+  else if (corrente != "" && tensao != "" && resistencia != "") {
     alert("Digite apenas dois valores realizar o cálculo!");
     return
 }
