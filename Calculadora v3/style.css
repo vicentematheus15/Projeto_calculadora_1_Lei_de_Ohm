@@ -21,11 +21,10 @@ hr{
   margin: 0"
 }
 .titulos{
-text-align: center;
+  text-align: center;
 }
-
 body {
-  background-color: #ccefed;
+  background-color: #dfedef;
   font-family: "Open Sans", sans-serif;
 }
 header {
