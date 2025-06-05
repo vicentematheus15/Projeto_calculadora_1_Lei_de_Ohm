@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Calculadora 1ª Lei de Ohm</h1>
+            <hr>
+            <h4>Informe dois valores para calcular o terceiro. Redefina antes de iniciar um novo cálculo.</h4>
+        </header>
+        <div class="bloco">
+            <div class="valores">
+                <label for="resistencia"><strong>Valor da resistência: (R)</strong></label>
+                <input class="inputs" type="number" id="resistencia" placeholder="Digite o valor da resistência">
+            </div>
+            <div class="valores">    
+                <label for="tensao"><strong>Valor da tensão: (V)</strong></label>
+                <input class="inputs" type="number" id="tensao" placeholder="Digite o valor da tensão">
+            </div>    
+            <div class="valores">
+                <label for="corrente"><strong>Valor da corrente: (I)</strong></label>
+                <input class="inputs" type="number" id = "corrente" placeholder="Digite o valor da corrente">
+            </div>
+                    
+            <h3 id="resultado">Resultado: </h3>
+            <div class="buttons">
+                <button id="bt1" class="buttons" onclick="resultado()">Calcular</button>
+                <button id="bt2" class="buttons" onclick="apagar()">Redefinir</button>
+            </div>
+        </div>
+        
+        <div class="imagem"><h2><strong>Fórmulas</strong></h2><img src="formulas.png" id="img"></div>
+    </body>
+</html>
